@@ -1,4 +1,8 @@
-# Set do-not-track on .DS_Store files for macOS users
+# We'll store database info in `config.py` and `config_defaults.py`
+config.py
+config_defaults.py
+
+# macOS
 .DS_Store
 
 # Byte-compiled / optimized / DLL files
