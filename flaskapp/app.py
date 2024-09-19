@@ -1,7 +1,6 @@
-# Copyright © 2023, Indiana University
-# BSD 3-Clause License
-
 from flask import Flask, render_template
+import spotipy as spotipy
+from spotipy.oauth2 import SpotifyOAuth
 
 app = Flask(__name__)
 
